@@ -1,3 +1,15 @@
-h1 {
-    color: blue;
+/*@import 'navbar';
+@import 'media-queries';
+@import 'colors';
+@import 'form';
+@import 'footer';*/
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: $light;
+
 }
