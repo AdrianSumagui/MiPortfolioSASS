@@ -1,1 +1,122 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+.navbar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.2fr auto 1fr;
+      grid-template-columns: 0.2fr auto 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar--container {
+  width: 100%;
+  background-color: #13007D;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar--container {
+    position: relative;
+  }
+}
+
+.navbar__menu {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[5];
+      grid-template-columns: repeat(5, auto);
+  list-style: none;
+  text-align: center;
+  width: 70%;
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.navbar__menu--links {
+  color: #f7f7f7;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.navbar__menu--links:hover {
+  text-decoration: underline;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__menu--links {
+    text-align: center;
+    line-height: 60px;
+    width: 100%;
+    display: table;
+  }
+  .navbar__menu--links:hover {
+    background-color: #13007D;
+  }
+}
+
+.navbar__menu--toggle .bar {
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 03s ease-in-out;
+  transition: all 03s ease-in-out;
+  background-color: #f7f7f7;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__menu {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    background-color: #FA000F;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    /*left: -100%;
+            opacity: 0;*/
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  .navbar__menu.active {
+    background-color: #FA000F;
+    left: 0;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+}
+
+#navbar__logo {
+  color: #f7f7f7;
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+#button {
+  background-color: #FA000F;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  #button:hover {
+    background-color: #13007D;
+    border-radius: 0px;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */
