@@ -37,7 +37,7 @@
 .navbar__menu--links {
   color: #f7f7f7;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .navbar__menu--links:hover {
@@ -150,5 +150,32 @@
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
+}
+
+aside {
+  font-size: 3rem;
+  text-align: center;
+  background: url(/public/images/codigo.jpg) center no-repeat fixed;
+  background-size: cover;
+  height: 500px;
+}
+
+.hero {
+  background-color: #f7f7f7;
+}
+
+.hero__text article {
+  padding: 60px;
+}
+
+.hero__text h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2rem;
+}
+
+.hero__text p {
+  text-align: justify;
+  font-size: 1.1rem;
 }
 /*# sourceMappingURL=styles.css.map */

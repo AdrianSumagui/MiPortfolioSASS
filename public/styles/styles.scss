@@ -9,3 +9,45 @@
 
 }
 
+aside {
+
+    font-size: 3rem;
+    text-align: center;
+    background: url(/public/images/codigo.jpg) center no-repeat fixed;
+    background-size: cover;
+    height: 500px;
+
+}
+
+.hero {
+
+    background-color: $light;
+
+    &__text article {
+
+        padding: 60px;
+
+    }
+
+    &__text h1 {
+
+        text-align: center;
+        padding-top: 50px;
+        font-size: 2rem;
+
+    }
+
+    &__text p {
+
+        text-align: justify;
+        font-size: 1.1rem;
+
+    }
+
+
+
+
+
+
+
+}
