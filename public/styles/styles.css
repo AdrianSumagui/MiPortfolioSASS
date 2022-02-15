@@ -9,6 +9,8 @@
   height: 100px;
   width: 100%;
   margin: 0 auto;
+  position: fixed;
+  background-color: #13007D;
 }
 
 .navbar--container {
@@ -170,12 +172,20 @@ aside {
 
 .hero__text h1 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 150px;
   font-size: 2rem;
 }
 
 .hero__text p {
   text-align: justify;
   font-size: 1.1rem;
+}
+
+.hero__text--img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
 }
 /*# sourceMappingURL=styles.css.map */
