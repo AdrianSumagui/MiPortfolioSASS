@@ -9,17 +9,19 @@
     height: 100px;
     width: 100%;
     margin: 0 auto;
-    position: fixed;
     background-color: $darkBlue;
+
 
     &--container {
 
         width: 100%;
         background-color: $darkBlue;
+        position: fixed;
+        z-index: 500;
 
         @include tablet {
 
-            position: relative;
+            position: fixed;
 
         }
 
@@ -44,6 +46,7 @@
 
                 text-decoration: underline;
                 transition: all 0.3s ease;
+                color: $light;
 
             }
 
