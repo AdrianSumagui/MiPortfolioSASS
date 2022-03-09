@@ -119,6 +119,7 @@
 @media screen and (max-width: 768px) {
   #button {
     background-color: #13007D;
+    border-radius: 0px;
   }
   #button:hover {
     background-color: #FA000F;
@@ -199,7 +200,7 @@ aside {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
-  height: 50%;
+  width: 30%;
+  height: 25%;
 }
 /*# sourceMappingURL=styles.css.map */
